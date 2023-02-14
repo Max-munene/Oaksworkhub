@@ -1,11 +1,11 @@
 import React from "react";
-// import Navbar from "./Navbar";
+import Navbar from "./Navbar";
 
 const Header = () => {
   return (
     <header>
-      <h1>Hello Church!</h1>
-      {/* <Navbar /> */}
+      <h1 className="">The Oaks Church - ICC Meru</h1>
+    <Navbar />
     </header>
   );
 };
