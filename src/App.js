@@ -1,11 +1,12 @@
 import React, { useState } from "react";
-import Header from "./Components/Header";
+import { Header, NavBar } from "./Components/Main";
 
 const App = () => {
   const [count, setCount] = useState(0);
   return (
     <div>
       <Header />
+      <NavBar />
       <div className="container my-5">
         <div className="card text-center my-5">
           <div className="card-body">

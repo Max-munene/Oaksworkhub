@@ -1,9 +1,9 @@
 import React, { Component } from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
+// import "bootstrap/dist/css/bootstrap.min.css";
 
 const NavBar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav className="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
       <a className="navbar-brand" href="#">
         <img
           src="Documents/github/oaksworkhub-app/public/logo.png"
@@ -41,7 +41,23 @@ const NavBar = () => {
               Contact Us
             </a>
           </li>
+          <li className="nav-item">
+            <a className="nav-link" href="#">
+              Connect Groups (CGs)
+            </a>
+          </li>
         </ul>
+        <form class="form-inline">
+          <input
+            class="form-control mr-sm-2"
+            type="search"
+            placeholder="type something..."
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+            Search
+          </button>
+        </form>
       </div>
     </nav>
   );
