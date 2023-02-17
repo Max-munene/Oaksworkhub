@@ -10,8 +10,8 @@ const Mynav = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#link">About us</Nav.Link>
+            <Nav.Link href="./pages/home">Home</Nav.Link>
+            <Nav.Link eventKey="#link">About us</Nav.Link>
             <NavDropdown title="Connect Groups" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">
                 Taa Connect

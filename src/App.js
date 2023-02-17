@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Header, Mynav } from "./Components/Main";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { Home } from "./pages/home";
 
 const App = () => {
   const [count, setCount] = useState(0);
@@ -8,7 +9,7 @@ const App = () => {
     <div>
       <Header />
       <Mynav />
-      <div className="container my-5">
+      {/* <div className="container my-5">
         <div className="card text-center my-5">
           <div className="card-body">
             <h1>Hello Oaks!</h1>
@@ -37,7 +38,7 @@ const App = () => {
             </button>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
