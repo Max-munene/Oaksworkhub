@@ -4,7 +4,7 @@ import React from "react";
 const Header = () => {
   return (
     <header>
-      <h1 className="">The Oaks Church - ICC Meru</h1>
+      {/* <h1 className="">The Oaks Church - ICC Meru</h1> */}
       {/* <Navbar /> */}
     </header>
   );

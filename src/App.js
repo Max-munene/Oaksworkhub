@@ -1,12 +1,13 @@
 import React, { useState } from "react";
-import { Header, NavBar } from "./Components/Main";
+import { Header, Mynav } from "./Components/Main";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const App = () => {
   const [count, setCount] = useState(0);
   return (
     <div>
       <Header />
-      <NavBar />
+      <Mynav />
       <div className="container my-5">
         <div className="card text-center my-5">
           <div className="card-body">
