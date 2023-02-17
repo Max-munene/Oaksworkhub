@@ -1,7 +1,8 @@
 import React, { useState } from "react";
-import { Header, Mynav } from "./Components/Main";
+import { Header, Mynav, Home } from "./Components/Main";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Home } from "./pages/home";
+// import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
+// import { Home } from "./pages/home";
 
 const App = () => {
   const [count, setCount] = useState(0);
@@ -9,6 +10,7 @@ const App = () => {
     <div>
       <Header />
       <Mynav />
+      {/* <Home /> */}
       {/* <div className="container my-5">
         <div className="card text-center my-5">
           <div className="card-body">
@@ -39,6 +41,10 @@ const App = () => {
           </div>
         </div>
       </div> */}
+
+      {/* <Switch>
+        <Route exact path="/" component={Home} />
+      </Switch> */}
     </div>
   );
 };
