@@ -18,6 +18,7 @@ const App = () => {
           <Route path="/about" element={<About />} />
           {/* <Route path="/contact" component={Contact Us} /> */}
         </Routes>
+        <img src="/public/logo.png" alt=""></img>
       </div>
     </Router>
   );
