@@ -1,17 +1,33 @@
 import React, { Component } from "react";
 import Container from "react-bootstrap/Container";
 import { Navbar, Nav, NavDropdown, Form, Button } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 const Mynav = () => {
   return (
     <Navbar bg="dark" variant="dark" expand="lg" sticky="top">
       <Container>
-        <Navbar.Brand href="#home">OAKS</Navbar.Brand>
+        <Navbar.Brand href="/">
+          <img
+            src="/public/logo_adobe_express.svg"
+            width="30"
+            height="30"
+            className="d-inline-block align-top"
+            alt="Oaks logo"
+          />
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="./pages/home">Home</Nav.Link>
-            <Nav.Link eventKey="#link">About us</Nav.Link>
+            <Nav.Link>
+              <Link to="/">Home</Link>
+            </Nav.Link>
+            <Nav.Link>
+              <Link to="/about">About Us</Link>
+            </Nav.Link>
+            <Nav.Link>
+              <Link to="/contact">Contact Us</Link>
+            </Nav.Link>
             <NavDropdown title="Connect Groups" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">
                 Taa Connect
