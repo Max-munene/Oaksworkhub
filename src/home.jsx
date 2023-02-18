@@ -31,7 +31,7 @@ const Home = () => {
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
-      <img src="./public/img1.png" alt="" />
+      <img src="/public/img1.png" alt="" />
     </div>
   );
 };
