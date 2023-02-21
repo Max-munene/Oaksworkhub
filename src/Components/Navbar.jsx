@@ -9,9 +9,9 @@ const Mynav = () => {
       <Container>
         <Navbar.Brand href="/">
           <img
-            src="/public/logo_adobe_express.svg"
+            src="https://iccnairobi.org/wp-content/uploads/2021/06/icc-Meru-259x300.jpg"
             width="30"
-            height="30"
+            height="35"
             className="d-inline-block align-top"
             alt="Oaks logo"
           />
@@ -27,6 +27,9 @@ const Mynav = () => {
             </Nav.Link>
             <Nav.Link>
               <Link to="/contact">Contact Us</Link>
+            </Nav.Link>
+            <Nav.Link>
+              <Link to="/gallery">Gallery</Link>
             </Nav.Link>
             <NavDropdown title="Connect Groups" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">
