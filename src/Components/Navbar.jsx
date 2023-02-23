@@ -2,6 +2,7 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import { Navbar, Nav, NavDropdown, Form, Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import logo from "./Images/logo.png";
 
 const Mynav = () => {
   return (
@@ -9,9 +10,9 @@ const Mynav = () => {
       <Container>
         <Navbar.Brand href="/">
           <img
-            src="https://iccnairobi.org/wp-content/uploads/2021/06/icc-Meru-259x300.jpg"
+            src={logo}
             width="30"
-            height="35"
+            height="30"
             className="d-inline-block align-top"
             alt="Oaks logo"
           />
@@ -31,20 +32,24 @@ const Mynav = () => {
             <Nav.Link>
               <Link to="/gallery">Gallery</Link>
             </Nav.Link>
-            <NavDropdown title="Connect Groups" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">
-                Taa Connect
+            <NavDropdown title="Ministries" id="basic-nav-dropdown">
+              <NavDropdown.Item href="#action/3.1">NextGen</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.2">
+                Frontrunnerz
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">Mwanga</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Jiwe</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.5">Kiota</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.6">Bunifu</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.7">Angaza</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.8">Nuru</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.9">Mwamba</NavDropdown.Item>
-              <NavDropdown.Item href="#action/4.0">Imara</NavDropdown.Item>
-              <NavDropdown.Item href="#action/4.1">Jabali</NavDropdown.Item>
-              <NavDropdown.Item href="#action/4.2">Fadhili</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3">
+                B.R.I.C.K.S
+              </NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.5">A.W.A.K.E</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.6">
+                Connect Groups
+              </NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.7">
+                Oaks Worship
+              </NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.8">Prayer</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.9">Family</NavDropdown.Item>
+
               <NavDropdown.Divider />
               <NavDropdown.Item href="#action/4.3.1">
                 Separated link
