@@ -1,17 +1,13 @@
 import React, { Component } from "react";
 import { Carousel } from "react-bootstrap";
-
+import img4 from "./Images/img4.jpeg";
 const Mycarousel = () => {
   return (
     <Carousel fade>
       <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src="https://scontent-mba1-1.xx.fbcdn.net/v/t39.30808-6/289622158_568519768114630_7378702661672043124_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=ljQsnbpXPnMAX_OMnEZ&_nc_ht=scontent-mba1-1.xx&oh=00_AfCgpR6swqmDquhacfgnTgaC2lgQ2GYVvwrlkHUHiSAInw&oe=63F9753A"
-          alt="first slide"
-        />
+        <img className="d-block w-100" src={img4} alt="first slide" />
         <Carousel.Caption>
-          <h3>First slide label</h3>
+          <h1>First slide label</h1>
           <p>We shall put a small description of this slide here</p>
         </Carousel.Caption>
       </Carousel.Item>

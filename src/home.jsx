@@ -9,7 +9,7 @@ const Home = () => {
       {/* <h1>This is the Home page</h1> */}
       <Mycarousel />
 
-      <img src="/public/img1.png" alt="" />
+      <img src="./Images/img1.png" alt="" />
     </div>
   );
 };

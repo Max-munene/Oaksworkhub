@@ -1,11 +1,11 @@
-import React, { Component } from "react";
+import React from "react";
 import Container from "react-bootstrap/Container";
 import { Navbar, Nav, NavDropdown, Form, Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 const Mynav = () => {
   return (
-    <Navbar bg="dark" variant="dark" expand="lg" sticky="top">
+    <Navbar bg="dark" variant="dark" expand="lg" fixedy="top">
       <Container>
         <Navbar.Brand href="/">
           <img
